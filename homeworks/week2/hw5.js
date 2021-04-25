@@ -8,13 +8,13 @@ function join(arr, concatStr) {
 
 
 function repeat(str, times) {
-    var str_answer = '';
+    var strAnswer = '';
     for(var i=1; i<=times; i++){
-        str_answer = str_answer + str
+        strAnswer = strAnswer + str
     }
-    return str_answer
+    return strAnswer
 }
 
 
-console.log(join(["a", 1, "b", 2, "c", 3], ','));
+console.log(join(["aaa", "bb", "c", "dddd"], ',,'));
 console.log(repeat('yoyo', 2));
